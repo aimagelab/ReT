@@ -11,3 +11,6 @@ Please cite with the following BibTeX:
   year={2025}
 }
 ```
+<p align="center">
+  <img src="model.png" alt="ReT" width="840" />
+</p> 
