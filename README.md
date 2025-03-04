@@ -4,7 +4,7 @@
 
 Please cite with the following BibTeX:
 ```
-@inproceedings{sarto2023positive,
+@inproceedings{caffagni2025ret,
   title={{Recurrence-Enhanced Vision-and-Language Transformers for Robust Multimodal Document Retrieval}},
   author={Caffagni, Davide and Sarto, Sara and Cornia, Marcella and Baraldi, Lorenzo and Cucchiara, Rita},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
