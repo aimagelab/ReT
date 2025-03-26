@@ -54,8 +54,8 @@ You can use these checkpoints directly for retrieval tasks or fine-tune them to 
 | Model         | WIT Recall@10 | IGLUE Recall@1 | KVQA Recall@5 | OVEN Recall@5 | LLaVA Recall@1 | InfoSeek Recall@5 | InfoSeek Pseudo Recall@5 | EVQA Recall@5 | EVQA Pseudo Recall@5 | OKVQA Recall@5 | OKVQA Pseudo Recall@5 |
 |---------------|---------------|----------------|------------------|---------------|----------------|---------------|----------------------|----------------|-----------------------|-------------------|--------------------------|
 | [ReT-CLIP-ViT-L-14🤗](https://huggingface.co/aimagelab/ReT-CLIP-ViT-L-14) | 0.734         | 0.818          | 0.635         | 0.820            | 0.799         | 0.470          | 0.605         | 0.445                | 0.579          | 0.202                 | 0.662             |
-| [ReT-OpenCLIP-ViT-H-14🤗](https://huggingface.co/aimagelab/ReT-OpenCLIP-ViT-H-14) | 0.751         | 0.822          | 0.606         | 0.840            | 0.792         | 0.520          | 0.607         | 0.448                | 0.578          | 0.182                 | 0.634             |
-| [ReT-OpenCLIP-ViT-G-14🤗](https://huggingface.co/aimagelab/ReT-OpenCLIP-ViT-G-14) | 0.714         | 0.800          | 0.593         | 0.830            | 0.798         | 0.473          | 0.625         | 0.486                | 0.602          | 0.190                 | 0.638             |
+| [ReT-OpenCLIP-ViT-H-14🤗](https://huggingface.co/aimagelab/ReT-OpenCLIP-ViT-H-14) | 0.714         | 0.800          | 0.593         | 0.830            | 0.798         | 0.473          | 0.607         | 0.448                | 0.578          | 0.182                 | 0.634             |
+| [ReT-OpenCLIP-ViT-G-14🤗](https://huggingface.co/aimagelab/ReT-OpenCLIP-ViT-G-14) | 0.751         | 0.822          | 0.606         | 0.840            | 0.792         | 0.520          | 0.625         | 0.486                | 0.602          | 0.190                 | 0.638             |
 
 
 ## ReT-M2KR Dataset 🤗
