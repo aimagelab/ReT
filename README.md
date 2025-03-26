@@ -61,7 +61,7 @@ You can use these checkpoints directly for retrieval tasks or fine-tune them to 
 ## ReT-M2KR Dataset 🤗
 
 You can download the ReT-M2KR benchmark by following the instructions provided [here](https://huggingface.co/datasets/aimagelab/ReT-M2KR). 
-This dataset is used for training and evaluating ReT in multimodal information retrieval and includes images (coming soon) and `jsonl` files.
+This dataset is used for training and evaluating ReT in multimodal information retrieval and includes images (coming soon) and `JSONL` files.
 
 ReT-M2KR benchmark is an extended version of the [M2KR dataset](https://huggingface.co/datasets/BByrneLab/multi_task_multi_modal_knowledge_retrieval_benchmark_M2KR), with the following modifications:
 
@@ -106,6 +106,7 @@ print(ret_feats.shape)  # torch.Size([1, 32, 128])
 ## Indexing and Searching
 To evaluate ReT on the on M2KR benchmark, we provide SLURM script examples [here](./scripts). These scripts handle both indexing and searching processes.
 
+Make sure to set [`JSONL_ROOT_PATH`](https://github.com/aimagelab/ReT/blob/88abe2461106b07a047d57ccba32b7d2af52e3e1/scripts/inference_m2kr_large.sh#L37) and [`IMAGE_ROOT_PATH`](https://github.com/aimagelab/ReT/blob/88abe2461106b07a047d57ccba32b7d2af52e3e1/scripts/inference_m2kr_large.sh#L60) accordingly to the directories where the JSONL files and images have been downloaded.
 
 #### Known issue
 If the inference script got stuck while indexing, try to clear the Pytorch cache and re-run
