@@ -24,6 +24,9 @@ Please cite with the following BibTeX:
   year={2025}
 }
 ```
+
+* ```12/09/2025``` 🔥🔥🔥 We release [ReT-2](https://github.com/aimagelab/ReT-2): Recurrence Meets Transformers for Universal Multimodal Retrieval
+
 ## Installation
 1. Create the Python environment.
 ```
@@ -120,3 +123,4 @@ rm -rf ~/.cache/torch_extensions
 
 ## Acknowledgments
 We thank the teams behind [ColBERT](https://github.com/stanford-futuredata/ColBERT), [PreFLMR](https://github.com/LinWeizheDragon/FLMR), and [UniIR](https://github.com/TIGER-AI-Lab/UniIR) for open-sourcing their models, datasets, and code.
+
